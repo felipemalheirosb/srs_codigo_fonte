@@ -4,7 +4,8 @@
     "license": "COMMERCIAL",
     "angular-cli": {},
     "engines": {
-        "npm": ">=5.0"
+        "npm": ">=5.0",
+        "node": ">=12.16.3"
     },
     "scripts": {
         "ng": "ng",
