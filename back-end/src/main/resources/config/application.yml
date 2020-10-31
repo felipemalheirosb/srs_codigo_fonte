@@ -6,7 +6,7 @@ spring:
         name: srsservice
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/srs
+        url: ${JDBC_DATASOURCE_URL} #jdbc:postgresql://localhost:5432/srs
         username: srs
         password: srs
         hikari:
